@@ -12,12 +12,13 @@ int main(void) {
 
   printf("Input the marks of Science: ");
   scanf("%d", &science);
-  printf("Input the marks of Maths: ");
+  printf("Input the marks of Maths: \n\n");
   scanf("%d", &maths);
 
-  average = (science + maths) / 2.0;
+  average = (science + maths) / 2;
 
-  printf("Average: %.2f", average);
+  printf("Average: ");
+  scanf(".2f", &average);
 
   return 0;
 }
