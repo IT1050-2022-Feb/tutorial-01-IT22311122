@@ -36,7 +36,7 @@ int main(void) {
     amount = amount1 + amount2;
   }
 
-  printf("Amount = %.2f", amount);    //ouiput
+  printf("Amount = %.2f", amount);    //output
   
   return 0;
 }
